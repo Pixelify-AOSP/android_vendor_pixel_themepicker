@@ -15,6 +15,12 @@ PRODUCT_PACKAGES += \
 	PixelLauncherOverlayThemePicker \
     SettingsOverlayThemePicker
 
+# Tensorflow
+PRODUCT_PACKAGES += \
+    libtensorflowlite_jni \
+    MagicPortraitSymLink
+
+# Config
 PRODUCT_COPY_FILES += \
     vendor/pixel/themepicker/prebuilt/etc/hiddenapi-package-whitelist-themepicker.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
     vendor/pixel/themepicker/prebuilt/etc/preinstalled-packages-product-themepicker.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-preinstalled-packages-product-themepicker.xml \
