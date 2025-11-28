@@ -13,7 +13,8 @@ $(call inherit-product, vendor/pixel/themepicker/common/common-vendor.mk)
 PRODUCT_PACKAGES += \
 	FrameworkOverlayThemePicker \
 	PixelLauncherOverlayThemePicker \
-    SettingsOverlayThemePicker
+    SettingsOverlayThemePicker \
+    SystemUIOverlayThemePicker
 
 # Tensorflow
 PRODUCT_PACKAGES += \
