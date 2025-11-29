@@ -13,4 +13,5 @@ PRODUCT_PACKAGES += \
     WallpaperEmojiPrebuilt-v5154 \
     PixelLiveWallpaperPrebuilt-26000013 \
     WallpaperEffect \
+    MagicPortraitWallpapers \
     WallpaperPickerGoogleRelease

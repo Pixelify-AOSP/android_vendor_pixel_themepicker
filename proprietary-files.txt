@@ -9,4 +9,5 @@ product/app/PixelWallpapers2024/PixelWallpapers2024.apk;PRESIGNED
 product/app/WallpaperEmojiPrebuilt-v5154/WallpaperEmojiPrebuilt-v5154.apk;PRESIGNED
 product/priv-app/PixelLiveWallpaperPrebuilt-26000013/PixelLiveWallpaperPrebuilt-26000013.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
+system_ext/priv-app/MagicPortraitWallpapers/MagicPortraitWallpapers.apk;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
