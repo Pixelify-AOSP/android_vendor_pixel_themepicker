@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
     PixelThemesStub2022_and_newer \
     PixelWallpapers2024 \
     WallpaperAIPrebuilt_10000372 \
-    WallpaperEmojiPrebuilt-v5154 \
+    WallpaperEmojiPrebuilt-foldable-wallpaper \
     PixelLiveWallpaperPrebuilt-26000013 \
     WallpaperEffect \
     MagicPortraitWallpapers \
