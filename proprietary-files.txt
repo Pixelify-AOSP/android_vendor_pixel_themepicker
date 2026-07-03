@@ -1,11 +1,11 @@
-# Extracted from caiman-ota-bp4a.251205.006
+# Extracted from blazer-ota-cp2a.260605.012
 
 # Ai Wallpapers
 product/app/WallpaperAIPrebuilt_10000372/WallpaperAIPrebuilt_10000372.apk;PRESIGNED
 
 # Styles & Wallpapers
-product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk
-product/app/PixelWallpapers2024/PixelWallpapers2024.apk;PRESIGNED
+product/app/PixelThemesStub2025/PixelThemesStub2025.apk
+product/app/PixelWallpapers2025/PixelWallpapers2025.apk;PRESIGNED
 product/app/WallpaperEmojiPrebuilt-foldable-wallpaper/WallpaperEmojiPrebuilt-foldable-wallpaper.apk;PRESIGNED
 product/priv-app/PixelLiveWallpaperPrebuilt-26000013/PixelLiveWallpaperPrebuilt-26000013.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED

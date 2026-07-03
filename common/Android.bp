@@ -8,9 +8,9 @@ soong_namespace {
 }
 
 android_app_import {
-    name: "PixelThemesStub2022_and_newer",
+    name: "PixelThemesStub2025",
     owner: "pixel/themepicker",
-    apk: "proprietary/product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk",
+    apk: "proprietary/product/app/PixelThemesStub2025/PixelThemesStub2025.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
@@ -19,9 +19,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "PixelWallpapers2024",
+    name: "PixelWallpapers2025",
     owner: "pixel/themepicker",
-    apk: "proprietary/product/app/PixelWallpapers2024/PixelWallpapers2024.apk",
+    apk: "proprietary/product/app/PixelWallpapers2025/PixelWallpapers2025.apk",
     preprocessed: true,
     presigned: true,
     dex_preopt: {
