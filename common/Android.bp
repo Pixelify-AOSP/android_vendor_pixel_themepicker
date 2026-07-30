@@ -97,12 +97,7 @@ android_app_import {
     name: "WallpaperPickerGoogleRelease",
     owner: "pixel/themepicker",
     apk: "proprietary/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk",
-    overrides: [
-        "ThemePicker",
-        "WallpaperPicker",
-        "WallpaperPicker2",
-        "WallpaperCropper",
-    ],
+    overrides: ["ThemePicker", "WallpaperPicker2"],
     preprocessed: true,
     presigned: true,
     dex_preopt: {

@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifeq ($(WITH_GMS),true)
-
 # Inherit from the proprietary version
 $(call inherit-product, vendor/pixel/themepicker/common/common-vendor.mk)
 
@@ -13,6 +11,7 @@ $(call inherit-product, vendor/pixel/themepicker/common/common-vendor.mk)
 PRODUCT_PACKAGES += \
 	FrameworkOverlayThemePicker \
 	PixelLauncherOverlayThemePicker \
+	PixelWallpaperOverlay \
     SettingsOverlayThemePicker \
     SystemUIOverlayThemePicker
 
@@ -44,4 +43,3 @@ PRODUCT_COPY_FILES += \
     vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_green.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_green.jpg \
     vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_green_dark.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_green_dark.jpg
 
-endif
