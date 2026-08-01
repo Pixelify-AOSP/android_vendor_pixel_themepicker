@@ -28,4 +28,20 @@ PRODUCT_COPY_FILES += \
     vendor/pixel/themepicker/prebuilt/etc/sysconfig-themepicker.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/sysconfig-themepicker.xml \
     vendor/pixel/themepicker/prebuilt/etc/privapp-permissions-themepicker-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/google-privapp-permissions-themepicker-se.xml
 
+# Abalone (Sterling) / Mantis (Green) live wallpaper media — required under
+# /product/wallpaper/{video,image}/ or the emojiwallpaper engine kills itself.
+PRODUCT_COPY_FILES += \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/video/sterling.mp4:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/video/sterling.mp4 \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/video/sterling_dark.mp4:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/video/sterling_dark.mp4 \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/video/green.mp4:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/video/green.mp4 \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/video/green_dark.mp4:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/video/green_dark.mp4 \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/front_sterling.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/front_sterling.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/front_sterling_dark.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/front_sterling_dark.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_sterling.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_sterling.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_sterling_dark.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_sterling_dark.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/front_green.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/front_green.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/front_green_dark.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/front_green_dark.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_green.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_green.jpg \
+    vendor/pixel/themepicker/common/proprietary/product/wallpaper/image/fallback_green_dark.jpg:$(TARGET_COPY_OUT_PRODUCT)/wallpaper/image/fallback_green_dark.jpg
+
 endif
